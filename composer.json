@@ -1,0 +1,24 @@
+{
+    "name": "netcommons-themed/default-blue",
+    "description": "NetCommons3 Themed Classic Blue",
+    "homepage": "http://www.netcommons.org/",
+    "extra": {
+        "installer-types": ["netcommons-theme"],
+        "installer-name": "DefaultBlue",
+        "installer-paths": {
+            "app/View/Themed/{$name}": ["type:netcommons-theme"]
+        }
+    },
+    "require": {
+        "oomphinc/composer-installers-extender": "~1.1"
+    },
+    "license": "researchmap license",
+    "authors": [
+        {
+            "name": "NetCommons Community",
+            "homepage": "http://www.netcommons.org"
+        }
+    ],
+    "type": "netcommons-theme",
+    "keywords": ["cakephp", "netcommons", "theme"]
+}
